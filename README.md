@@ -1,1 +1,1 @@
-Simple Login Validation Via My JavaScript That I Was Created Before 
+Simple Login Validation Via My JavaScript Library That I Was Created Before 
