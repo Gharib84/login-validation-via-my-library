@@ -8,6 +8,7 @@ window.onload = () => {
             //$("registeration_form").submit();
             var x = new Navigate();
             x.show_results();
+            registerform.resetForm();
         }
     }
     $("reset").onclick =() => {
