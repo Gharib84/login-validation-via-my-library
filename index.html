@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        .show{
+            display: block;
+           
+        }
+        .hide{
+            display: none;
+        }
+        .error{
+            color: orchid;
+        }
+    
+    </style>
+    <script src="navigate.js"></script>
+    <script src="fields.js"></script>
+    <script src="app.js"></script>
+    <script src="run.js"></script>
+
+
+</head>
+<body>
+    <div class="container mt-5">
+    <form id="registeration_form" class=" form-group col-md-12 align-center show">
+        <h3 class="text-success">Login</h3>
+        <input type="email" id="email" class="form-control" placeholder="Email:" />
+        <span id="email_error">&nbsp;</span><br>
+        <input type="password" id="password" class="form-control" placeholder="Password:"/>
+        <span id="password_error">&nbsp;</span><br>
+        <input type="password" class="form-control" id="verify" placeholder="Confirm"/>
+        <span id="verify_error">&nbsp;</span><br>
+        <input type="button" name="" id="login" value="login" class="btn btn-success">
+        <input type="button" name="" id="reset" value="reset" class="btn btn-danger">
+    </form>
+</div>
+<section class="hide" id="registeration_results">
+    <div class="jumbotron">
+        <h2>Congratulation!</h2>
+        <p>you have super access with no limits </p>
+        <input type="button" name="" id="back" value="back" class="btn btn-warning">
+    </div>
+</section>
+
+
+</body>
+</html>
